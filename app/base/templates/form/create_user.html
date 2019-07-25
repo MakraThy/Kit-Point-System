@@ -1,6 +1,9 @@
 {% extends "base_site.html" %}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 {% block content %}
   <div class="right_col" role="main">
     <div class="">
@@ -8,7 +11,11 @@
         <div class="col-md-6 col-xs-12">
           {% with messages = get_flashed_messages() %}
             {% if messages %}
+<<<<<<< HEAD
               <ul class="alert alert-success" id="alert_message">
+=======
+              <ul class="alert alert-success">
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                 {% for message in messages %}
                   <label>{{ message }}</label>
                 {% endfor %}
@@ -25,12 +32,20 @@
               </h2>
               <ul class="nav navbar-right panel_toolbox">
                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+<<<<<<< HEAD
                 <li><a href="/users" id="go-to-list"><i class="fa fa-list-alt"></i></a></li>
+=======
+                <li><a href="/users"><i class="fa fa-list-alt"></i></a></li>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
                     class="fa fa-wrench"></i></a>
                   <ul class="dropdown-menu" role="menu">
+<<<<<<< HEAD
                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">Add role</a>
+=======
+                    <li><a href="#">Settings 1</a>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                     </li>
                     <li><a href="#">Settings 2</a>
                     </li>
@@ -44,6 +59,7 @@
             <div class="x_content">
 
               <!-- start form for validation -->
+<<<<<<< HEAD
               <form id="create-user-form" data-parsley-validate method="post">
                 {% for field in userForm if field.widget.input_type != 'hidden' %}
                   <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
@@ -63,12 +79,35 @@
                     <button type="button" onclick="signup()" class="btn btn-primary">Add new user</button>
                   </div>
                 </div>
+=======
+              <form id="demo-form" data-parsley-validate action="{{ url_for('base_blueprint.create_user') }}"
+                    method="post">
+                {% for field in userForm if field.widget.input_type != 'hidden' %}
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                      <label>{{ field.label.text }}</label>
+                      {{ field(class="form-control has-feedback-left required", placeholder=field.label.text) }}
+                      {% if field.label.text == 'Username' %}
+                        <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                      {% elif field.label.text == 'Email' %}
+                        <span class="fa fa-envelope-o form-control-feedback left" aria-hidden="true"></span>
+                      {% else %}
+                        <span class="fa fa-lock form-control-feedback left" aria-hidden="true"></span>
+                      {% endif %}
+                    </div>
+                {% endfor %}
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Add new user</button>
+                </div>
+              </div>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
               </form>
               <!-- end form for validations -->
 
             </div>
           </div>
         </div>
+<<<<<<< HEAD
 
         <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog modal-sm">
@@ -98,12 +137,15 @@
             </div>
           </div>
         </div>
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
       </div>
     </div>
   </div>
 {% endblock content %}
 {% block javascripts %}
   {{ super() }}
+<<<<<<< HEAD
     <!-- Parsley -->
   <script src="{{ url_for('static', filename='vendors/parsleyjs/dist/parsley.min.js') }}"></script>
   <script type="text/javascript">
@@ -132,5 +174,9 @@
       }
     }
   </script>
+=======
+  {#  <!-- Parsley -->#}
+  <script src="{{ url_for('static', filename='vendors/parsleyjs/dist/parsley.min.js') }}"></script>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 {% endblock javascripts %}
 

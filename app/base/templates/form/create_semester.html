@@ -15,7 +15,11 @@
             {% endif %}
           {% endwith %}
           {% if error %}
+<<<<<<< HEAD
             <p class="alert alert-error"><strong>Error:</strong> {{ error }}</p>
+=======
+            <p class="alert alert-error"><strong>Error:</strong> {{ error }}
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
           {% endif %}
           <div class="x_panel">
             <div class="x_title">
@@ -51,7 +55,11 @@
                       <div class="control-group">
                         <div class="controls">
                           <label>{{ field.label.text }}</label>
+<<<<<<< HEAD
                           {{ field(class="form-control has-feedback-left required custom-date-picker", placeholder=field.label.text) }}
+=======
+                          {{ field(class="form-control has-feedback-left required single_cal2", placeholder=field.label.text) }}
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                           <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
                           <span id="inputSuccess2Status" class="sr-only">(success)</span>
                         </div>
@@ -94,6 +102,7 @@
   <script src="{{ url_for('static', filename='vendors/parsleyjs/dist/parsley.min.js') }}"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+<<<<<<< HEAD
       let $batch = $('#batch');
       $('#department').on('change', function() {
         let dep_id = $(this).val();
@@ -104,13 +113,28 @@
             $batch.html('');
             let empty = '<option></optoin>';
             $batch.append(empty);
+=======
+      $('#select_department').on('change', function() {
+        let dep_id = $(this).val();
+        let length = $(this).text();
+        if (length === '') return;
+        $.getJSON('student/get_batch/' + dep_id, function(res) {
+          if (res['code'] === 200) {
+            $('#select_batch').html('');
+            let empty = '<option></optoin>';
+            $('#select_batch').append(empty);
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
             Object.keys(res).forEach((v, i, arr) => {
               console.debug(res[v]);
               if (i !== arr.length - 1) {
                 let option = '<option value=' + v + '>' +
                   res[v].name +
                   '</option>';
+<<<<<<< HEAD
                 $batch.append(option);
+=======
+                $('#select_batch').append(option);
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
               }
 
             });
@@ -122,10 +146,13 @@
           }
         });
       });
+<<<<<<< HEAD
        $('.custom-date-picker').daterangepicker({
           singleDatePicker: true,
           singleClasses: "picker_4"
         });
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
     });
   </script>
 {% endblock javascripts %}

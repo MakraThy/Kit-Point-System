@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from bcrypt import checkpw, gensalt, hashpw
+=======
+from bcrypt import checkpw
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 from datetime import datetime
 from flask import jsonify, render_template, redirect, request, url_for, flash, json, Response
 from flask_login import (
@@ -10,9 +14,14 @@ from flask_login import (
 
 from app import db, login_manager
 from app.base import blueprint
+<<<<<<< HEAD
 from app.base.forms import LoginForm, CreateAccountForm, CreateDepartmentForm, \
   CreateBatchForm, CreateSemesterForm, CreateRoleForm
 from app.base.models import User, Role, Department, Batch, Semester, KitPointValue, AverageInternHour
+=======
+from app.base.forms import LoginForm, CreateAccountForm, CreateDepartmentForm, CreateBatchForm, CreateSemesterForm
+from app.base.models import User, Role, Department, Batch, Semester
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 
 
 @blueprint.route('/')
@@ -20,10 +29,17 @@ def route_default():
     return redirect(url_for('base_blueprint.login'))
 
 
+<<<<<<< HEAD
 # @blueprint.route('/<template>')
 # @login_required
 # def route_template(template):
 #     return render_template(template + '.html')
+=======
+@blueprint.route('/<template>')
+@login_required
+def route_template(template):
+    return render_template(template + '.html')
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 
 
 @blueprint.route('/fixed_<template>')
@@ -37,6 +53,7 @@ def route_errors(error):
     return render_template('errors/page_{}.html'.format(error))
 
 
+<<<<<<< HEAD
 @blueprint.route('/kit/point/values')
 @login_required
 def get_kit_point_value():
@@ -141,6 +158,9 @@ def update_user(user_id):
         db.session.commit()
         flash('User updated')
         return redirect('/users')
+=======
+## Login & Registration
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 
 
 @blueprint.route('/login', methods=['GET', 'POST'])
@@ -168,10 +188,17 @@ def login():
 def create_user():
     if request.method == 'GET':
         userForm = CreateAccountForm(request.form)
+<<<<<<< HEAD
         roleform = CreateRoleForm(request.form)
         return render_template('form/create_user.html', userForm=userForm, roleForm=roleform)
     email = request.form['email']
     username = request.form['username']
+=======
+        return render_template('form/create_user.html', userForm=userForm)
+    email = request.form['email']
+    username = request.form['username']
+    print(username)
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
     check_email = db.session.query(User).filter_by(email=email).first()
     check_username = db.session.query(User).filter_by(username=username).first()
     if '@kit.edu.kh' in email:
@@ -179,10 +206,15 @@ def create_user():
     else:
         print('noooooooooooooooooo')
     if check_email is None and check_username is None:
+<<<<<<< HEAD
 
         role = db.session.query(Role).get(request.form.get('role'))
         user = User(**request.form)
         print(user.username)
+=======
+        role = db.session.query(Role).get(2)
+        user = User(**request.form)
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
         # user.roles.append(Role('ADMIN'))
         user.roles.append(role)
         db.session.add(user)
@@ -192,6 +224,7 @@ def create_user():
         return jsonify('duplicate')
 
 
+<<<<<<< HEAD
 @blueprint.route('/department/<department_id>', methods=['GET', 'POST'])
 @login_required
 def update_department(department_id):
@@ -304,6 +337,9 @@ def delete_semester(semester_id):
 
 @blueprint.route('/create_department', methods=['GET', 'POST'])
 @login_required
+=======
+@blueprint.route('/create_department', methods=['GET', 'POST'])
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 def create_department():
     if request.method == 'GET':
         departmentForm = CreateDepartmentForm(request.form)
@@ -325,7 +361,10 @@ def create_department():
 
 
 @blueprint.route('/create_batch', methods=['GET', 'POST'])
+<<<<<<< HEAD
 @login_required
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 def create_batch():
     if request.method == 'GET':
         batchForm = CreateBatchForm(request.form)
@@ -352,7 +391,10 @@ def create_batch():
 
 
 @blueprint.route('/create_semester', methods=['GET', 'POST'])
+<<<<<<< HEAD
 @login_required
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 def create_semester():
     if request.method == 'GET':
         semesterForm = CreateSemesterForm(request.form)
@@ -368,6 +410,7 @@ def create_semester():
                                                            batch_id=batch_id,
                                                            department_id=department_id).first()
     if check_code is None and check_duplicate is None:
+<<<<<<< HEAD
         if '1' in name or '2' in name:
             year_id = AverageInternHour.query.get(1).id
         elif '3' in name or '4' in name:
@@ -378,6 +421,10 @@ def create_semester():
             year_id = AverageInternHour.query.get(4).id
         created_at = datetime.now()
         semester = Semester(name, code, start_date, end_date, batch_id, department_id, year_id)
+=======
+        created_at = datetime.now()
+        semester = Semester(name, code, start_date, end_date, batch_id, department_id)
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
         semester.created_at = created_at
         db.session.add(semester)
         db.session.commit()
@@ -390,28 +437,40 @@ def create_semester():
 
 
 @blueprint.route('/departments')
+<<<<<<< HEAD
 @login_required
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 def get_departments():
     departments = db.session.query(Department).all()
     return render_template('list/department.html', departments=departments)
 
 
 @blueprint.route('/users')
+<<<<<<< HEAD
 @login_required
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 def get_users():
     users = db.session.query(User).all()
     return render_template('list/user.html', users=users)
 
 
 @blueprint.route('/batches')
+<<<<<<< HEAD
 @login_required
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 def get_batches():
     batches = db.session.query(Batch).all()
     return render_template('list/batch.html', batches=batches)
 
 
 @blueprint.route('/semesters')
+<<<<<<< HEAD
 @login_required
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 def get_semesters():
     semesters = db.session.query(Semester).all()
     return render_template('list/semester.html', semesters=semesters)

@@ -87,6 +87,7 @@
   {{ super() }}
   {#  <!-- Parsley -->#}
   <script src="{{ url_for('static', filename='vendors/parsleyjs/dist/parsley.min.js') }}"></script>
+<<<<<<< HEAD
   <script type="text/javascript">
     $(document).ready(function() {
       let $batch = $('#batch');
@@ -118,4 +119,37 @@
     });
   </script>
 {#  <script src="{{ url_for('static', filename='build/js/onchange-events.js') }}"></script>#}
+=======
+{#  <script type="text/javascript">#}
+{#    $(document).ready(function() {#}
+{#      let $batch = $('#batch');#}
+{#      setTimeout(function() {$('.alert').hide();}, 1500);#}
+{#      $('#department').on('change', function() {#}
+{#        let dep_id = $(this).val();#}
+{#        let length = $(this).text();#}
+{#        if (length ==='') return;#}
+{#        $.getJSON('get_batch/' + dep_id, function(res) {#}
+{#          if (res['code'] === 200) {#}
+{#            $batch.html('');#}
+{#            $batch.append('<option></optoin>');#}
+{#            Object.keys(res).forEach((v, i, arr) => {#}
+{#              console.debug(res[v]);#}
+{#              if (i !== arr.length - 1) {#}
+{#                let option = '<option value=' + v + '>' + res[v].name + '</option>';#}
+{#                $batch.append(option);#}
+{#              }#}
+{##}
+{#            });#}
+{#          } else {#}
+{#            let error = '<ul class="alert alert-danger">' +#}
+{#              '<label>Cannot get batches</label>' +#}
+{#              '</ul>';#}
+{#            $('#alert_message').append(error);#}
+{#          }#}
+{#        });#}
+{#      });#}
+{#    });#}
+{#  </script>#}
+  <script src="{{ url_for('static', filename='custom.js') }}"></script>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 {% endblock javascripts %}

@@ -17,6 +17,20 @@
         <div class="title_left">
           <h3>Students <small>All students in KIT</small></h3>
         </div>
+<<<<<<< HEAD
+=======
+
+        <div class="title_right">
+          <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
       </div>
 
       <div class="clearfix"></div>
@@ -34,6 +48,10 @@
           {% endwith %}
           <div class="x_panel">
             <div class="x_title">
+<<<<<<< HEAD
+=======
+              <h2>KIT<small>Students</small></h2>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
               <ul class="nav navbar-right panel_toolbox">
                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                 </li>
@@ -53,6 +71,7 @@
               <div class="clearfix"></div>
             </div>
             <div class="x_content">
+<<<<<<< HEAD
               <table id="datatable-responsive" class="table table-striped table-bordered table-hover dt-responsive nowrap">
                 <thead>
                 <tr>
@@ -72,14 +91,44 @@
                     <td>{{ student.name }}</td>
                     <td>{{ student.gender }}</td>
                     <td>{{ student.rank }}</td>
+=======
+              <p class="text-muted font-13 m-b-30">
+                DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function: <code>$().DataTable();</code>
+              </p>
+              <table id="datatable" class="table table-striped table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Rank</th>
+                    <th>Roll Number</th>
+                    <th>Department</th>
+                    <th>Batch</th>
+                    <th>User</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+
+
+                <tbody>
+                {% for student in students %}
+                  <tr>
+                    <td><a href="/student/{{ student.id }}">{{ student.name }}</a></td>
+                    <td>{{ student.gender }}</td>
+                    <td>{{ student.rank.name }}</td>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                     <td>{{ student.roll_number }}</td>
                     <td>{{ student.department }}</td>
                     <td>{{ student.batch }}</td>
                     <td>{{ student.user }}</td>
                     <td>
+<<<<<<< HEAD
                       <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                       <a href="/student/{{ student.id }}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
                       <a href="delete{{ student.id }}" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+=======
+                      <a class="btn-xs btn-danger" href="delete{{ student.id }}">delete</a>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                     </td>
                   </tr>
 
@@ -118,7 +167,11 @@
     $(document).ready(function() {
       setTimeout(function() {
         $('#alert_message').hide();
+<<<<<<< HEAD
       }, 2000)
+=======
+      }, 1500)
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
     })
   </script>
 {% endblock javascripts %}

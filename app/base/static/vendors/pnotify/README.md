@@ -19,7 +19,11 @@ You can include PNotify using Bower, NPM, or a custom download.
 
 PNotify custom download comes with the following files:
 
+<<<<<<< HEAD
 * `pnotify.onchange-events.js` & `pnotify.custom.min.js` (Minified)
+=======
+* `pnotify.custom.js` & `pnotify.custom.min.js` (Minified)
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 * `pnotify.custom.css` & `pnotify.custom.min.css` (Minified)
 
 So here's how you'd include them on your page:

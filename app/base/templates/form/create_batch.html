@@ -7,7 +7,11 @@
         <div class="col-md-6 col-xs-12">
           {% with messages = get_flashed_messages() %}
             {% if messages %}
+<<<<<<< HEAD
               <ul class="alert alert-success" id="alert-message">
+=======
+              <ul class="alert alert-success">
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                 {% for message in messages %}
                   <label>{{ message }}</label>
                 {% endfor %}
@@ -46,6 +50,7 @@
               <form id="demo-form" data-parsley-validate action="{{ url_for('base_blueprint.create_batch') }}"
                     method="post">
                 {% for field in batchForm if field.widget.input_type != 'hidden' %}
+<<<<<<< HEAD
                   <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
                     <label>{{ field.label.text }}</label>
                     {% if field.label.text == 'Name' %}
@@ -62,6 +67,33 @@
                       <span class="fa fa-calendar form-control-feedback left" aria-hidden="true"></span>
                     {% endif %}
                   </div>
+=======
+                  {% if field.label.text == 'Start Date' or field.label.text == 'End Date' %}
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                      <div class="control-group">
+                        <div class="controls">
+                          <label>{{ field.label.text }}</label>
+                          {{ field(class="form-control has-feedback-left required", placeholder=field.label.text) }}
+                          <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                          <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                        </div>
+                      </div>
+
+                    </div>
+                  {% else %}
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
+                      <label>{{ field.label.text }}</label>
+                      {{ field(class="form-control has-feedback-left required", placeholder=field.label.text) }}
+                      {% if field.label.text == 'Batch' %}
+                        <span class="fa fa-sitemap form-control-feedback left" aria-hidden="true"></span>
+                      {% elif field.label.text == 'Department' %}
+                        <span class="fa fa-building-o form-control-feedback left" aria-hidden="true"></span>
+                      {% else %}
+                        <span class="fa fa-code form-control-feedback left" aria-hidden="true"></span>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                 {% endfor %}
                 <div class="col-sm-12">
                   <div class="text-center">
@@ -82,6 +114,7 @@
   {{ super() }}
   {#  <!-- Parsley -->#}
   <script src="{{ url_for('static', filename='vendors/parsleyjs/dist/parsley.min.js') }}"></script>
+<<<<<<< HEAD
   <script type="text/javascript">
     setTimeout(function() {
       $('#alert-message').hide();
@@ -91,5 +124,7 @@
       singleClasses: "picker_4"
     });
   </script>
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 {% endblock javascripts %}
 

@@ -17,6 +17,20 @@
         <div class="title_left">
           <h3>Rank <small>All ranks in KIT</small></h3>
         </div>
+<<<<<<< HEAD
+=======
+
+        <div class="title_right">
+          <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
       </div>
 
       <div class="clearfix"></div>
@@ -63,13 +77,24 @@
               <div class="clearfix"></div>
             </div>
             <div class="x_content">
+<<<<<<< HEAD
               <table id="datatable-responsive" class="table table-striped table-bordered table-hover dt-responsive nowrap">
+=======
+              <p class="text-muted font-13 m-b-30">
+                DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function: <code>$().DataTable();</code>
+              </p>
+              <table id="datatable" class="table table-striped table-bordered table-hover">
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                 <thead>
                   <tr>
                     <th>Name</th>
                     <th>Code</th>
                     <th>Description</th>
+<<<<<<< HEAD
                     <th style="width: 20%">Edit</th>
+=======
+                    <th>Delete</th>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                   </tr>
                 </thead>
 
@@ -77,6 +102,7 @@
                 <tbody>
                 {% for rank in ranks %}
                   <tr>
+<<<<<<< HEAD
                     <td>{{ rank.name }}</td>
                     <td>{{ rank.code }}</td>
                     <td>{{ rank.description }}</td>
@@ -84,6 +110,13 @@
                       <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                       <a href="/student/rank/{{ rank.id }}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
                       <a href="rank/delete{{ rank.id }}" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+=======
+                    <td><a href="/student/rank/{{ rank.id }}">{{ rank.name }}</a></td>
+                    <td>{{ rank.code }}</td>
+                    <td>{{ rank.description }}</td>
+                    <td>
+                      <a class="btn-xs btn-danger" href="rank/delete{{ rank.id }}">delete</a>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
                     </td>
                   </tr>
 

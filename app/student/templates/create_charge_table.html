@@ -79,6 +79,7 @@
   {{ super() }}
   {#  <!-- Parsley -->#}
   <script src="{{ url_for('static', filename='vendors/parsleyjs/dist/parsley.min.js') }}"></script>
+<<<<<<< HEAD
   <script>
     $(document).ready(function() {
       let $department = $('#department');
@@ -139,4 +140,7 @@
       })
     });
   </script>
+=======
+  <script src="{{ url_for('static', filename='custom.js') }}"></script>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 {% endblock javascripts %}

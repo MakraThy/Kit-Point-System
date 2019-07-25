@@ -1,6 +1,10 @@
 <div class="left_col scroll-view">
   <div class="navbar nav_title" style="border: 0;">
+<<<<<<< HEAD
     <a href="" class="site_title"><i class="fa fa-spinner"></i> <span>KIT Point System</span></a>
+=======
+    <a href="" class="site_title"><i class="fa fa-spinner"></i> <span>Gentelella Alela!</span></a>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
   </div>
 
   <div class="clearfix"></div>
@@ -24,6 +28,7 @@
     <div class="menu_section">
       <h3>General</h3>
       <ul class="nav side-menu">
+<<<<<<< HEAD
         <li><a><i class="fa fa-file-powerpoint-o"></i> Project <span class="fa fa-chevron-down"></span></a>
           <ul class="nav child_menu">
             <li><a href="/project/projects">Project</a></li>
@@ -45,6 +50,9 @@
           </ul>
         </li>
         <li><a><i class="fa fa-home"></i> Dashboard <span class="fa fa-chevron-down"></span></a>
+=======
+        <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
           <ul class="nav child_menu">
             <li><a href="/home/index">Dashboard</a></li>
             <li><a href="/home/index2">Dashboard2</a></li>
@@ -74,6 +82,7 @@
             <li><a href="/ui/calendar">Calendar</a></li>
           </ul>
         </li>
+<<<<<<< HEAD
 {#        <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>#}
 {#          <ul class="nav child_menu">#}
 {#            <li><a href="/tables/tables">Tables</a></li>#}
@@ -120,16 +129,50 @@
         <li><a><i class="fa fa-cubes"></i> Cores <span class="fa fa-chevron-down"></span></a>
           <ul class="nav child_menu">
             <li><a href="/company">Company</a></li>
+=======
+        <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="/tables/tables">Tables</a></li>
+            <li><a href="/tables/tables_dynamic">Table Dynamic</a></li>
+          </ul>
+        </li>
+        <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="/data/chartjs">Chart JS</a></li>
+            <li><a href="/data/chartjs2">Chart JS2</a></li>
+            <li><a href="/data/morisjs">Moris JS</a></li>
+            <li><a href="/data/echarts">ECharts</a></li>
+            <li><a href="/data/other_charts">Other Charts</a></li>
+          </ul>
+        </li>
+        <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="/fixed_sidebar">Fixed Sidebar</a></li>
+            <li><a href="/fixed_footer">Fixed Footer</a></li>
+          </ul>
+        </li>
+{#        add new#}
+        {% if 'ADMIN'== current_user.roles[0].name  %}
+        <li><a><i class="fa fa-cubes"></i> Cores <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
             <li><a href="/departments">Department</a></li>
             <li><a href="/batches">Batch</a></li>
             <li><a href="/semesters">Semester</a></li>
             <li><a href="/users">User</a></li>
+<<<<<<< HEAD
             <li><a href="/kit/point/values">Point Value</a></li>
+=======
+            <li><a href="/student/students">Student</a></li>
+            <li><a href="/student/ranks">Rank</a></li>
+            <li><a href="/student/charge_tables">Charge Table</a></li>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
           </ul>
         </li>
         {% endif %}
       </ul>
     </div>
+<<<<<<< HEAD
 {#    <div class="menu_section">#}
 {#      <h3>Live On</h3>#}
 {#      <ul class="nav side-menu">#}
@@ -171,6 +214,49 @@
 {#        <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>#}
 {#      </ul>#}
 {#    </div>#}
+=======
+    <div class="menu_section">
+      <h3>Live On</h3>
+      <ul class="nav side-menu">
+        <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="/additional/ecommerce">E-commerce</a></li>
+            <li><a href="/additional/projects">Projects</a></li>
+            <li><a href="/additional/project_detail">Project Detail</a></li>
+            <li><a href="/additional/contacts">Contacts</a></li>
+            <li><a href="/additional/profile">Profile</a></li>
+            <li><a href="/additional/pricing">Pricing Tables</a></li>
+          </ul>
+        </li>
+        <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="/page_403">403 Error</a></li>
+            <li><a href="/page_404">404 Error</a></li>
+            <li><a href="/page_500">500 Error</a></li>
+            <li><a href="/plain_page">Plain Page</a></li>
+          </ul>
+        </li>
+        <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+              <li><a href="#level1_1">Level One</a>
+              <li><a>Level One<span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                  <li class="sub_menu"><a href="/level2">Level Two</a>
+                  </li>
+                  <li><a href="#level2_1">Level Two</a>
+                  </li>
+                  <li><a href="#level2_2">Level Two</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#level1_2">Level One</a>
+              </li>
+          </ul>
+        </li>
+        <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
+      </ul>
+    </div>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
   </div>
   <!-- /sidebar menu -->
 

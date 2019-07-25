@@ -163,7 +163,11 @@
               <div class="clearfix"></div>
             </div>
             <div class="x_content">
+<<<<<<< HEAD
               <canvas id="pieChart1"></canvas>
+=======
+              <canvas id="pieChart"></canvas>
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
             </div>
           </div>
         </div>
@@ -203,6 +207,7 @@
   {{ super() }}
     <!-- Chart.js -->
     <script src="{{ url_for('static', filename='vendors/Chart.js/dist/Chart.min.js') }}"></script>
+<<<<<<< HEAD
     <script type="text/javascript">
 
 				  var ctx = document.getElementById("pieChart1");
@@ -236,3 +241,6 @@
 				  });
     </script>
 {% endblock javascripts %}
+=======
+{% endblock javascripts %}
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484

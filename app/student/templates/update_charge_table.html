@@ -79,7 +79,10 @@
   {{ super() }}
   {#  <!-- Parsley -->#}
   <script src="{{ url_for('static', filename='vendors/parsleyjs/dist/parsley.min.js') }}"></script>
+<<<<<<< HEAD
   <script src="{{ url_for('static', filename='build/js/onchange-events.js') }}"></script>
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
   <script type="text/javascript">
       $(document).ready(function() {
         let $semester = $('#semester');
@@ -110,7 +113,10 @@
         });
         $.getJSON('/student/get_semester/' + {{ charge_table.batch.id }}, function(res) {
           if (res['code'] === 200){
+<<<<<<< HEAD
             $semester.html('');
+=======
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
             $semester.append('<option></option>');
             Object.keys(res).forEach((v, i, arr) => {
               console.debug(res[v]);
@@ -121,6 +127,7 @@
             $('#semester').val('{{ charge_table.semester.id }}');
           }
         })
+<<<<<<< HEAD
       });
       $(document).ready(function() {
       let $department = $('#department');
@@ -180,5 +187,8 @@
         })
       })
     });
+=======
+      })
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
   </script>
 {% endblock javascripts %}

@@ -112,7 +112,11 @@
       $('#roll_number').val('{{ student.roll_number }}');
       $('#user').val({{ student.user.id }});
       $('#gender').val('{{ student.gender }}');
+<<<<<<< HEAD
       $('#rank').val({{student.rank_id }});
+=======
+      $('#rank').val({{ student.rank.id }});
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
       $department.on('change', function() {
         let dep_id = $(this).val();
         let length = $(this).text();

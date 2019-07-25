@@ -1730,6 +1730,10 @@ if (typeof NProgress != 'undefined') {
 			if( typeof ($.fn.daterangepicker) === 'undefined'){ return; }
 			console.log('init_daterangepicker_single_call');
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ed04d2fc84a43bdd8f4a7a76e3e197d11f693484
 			$('#single_cal1').daterangepicker({
 			  singleDatePicker: true,
 			  singleClasses: "picker_1"

@@ -107,7 +107,6 @@ class Batch(db.Model):
         self.start_date = start_date
         self.end_date = end_date
         self.department_id = department_id
-
     def __repr__(self):
         return str(self.name)
 
