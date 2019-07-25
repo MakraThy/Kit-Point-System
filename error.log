@@ -1,0 +1,506 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:25:30] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:25:30] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:25:30] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:25:30] "GET /static/vendors/alertifyjs/css/custom.alertify.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:25:30] "GET /static/vendors/alertifyjs/css/alertify.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:25:30] "GET /static/vendors/alertifyjs/alertify.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:26:06] "GET /project/projects HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:26:07] "GET /project/projects?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:26:07] "GET /project/projects?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:26:07] "GET /project/projects?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:26:07] "GET /project/projects?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:26:07] "GET /project/projects?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 13:26:07] "GET /project/projects?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:24:51] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:24:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:24:51] "GET /static/build/js/login.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:24:51] "GET /static/vendors/animate.css/animate.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:00] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:02] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:29] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:29] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:30] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:30] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:30] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:30] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:30] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:30] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:31] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:31] "POST /create_user HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:33] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:25:35] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\base\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\base\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:26] "POST /create_user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:29] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:29] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:29] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:29] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\base\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:49] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:49] "GET /static/vendors/pnotify/dist/pnotify.buttons.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:49] "GET /static/vendors/pnotify/dist/pnotify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:29:49] "GET /static/vendors/pnotify/dist/pnotify.nonblock.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:14] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:22] "GET /project/categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:23] "GET /project/category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:28] "POST /project/category/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:28] "GET /project/category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:30] "GET /project/sub_categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:32] "GET /project/sub_category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:32] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:32] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:33] "POST /project/sub_category/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:34] "GET /project/sub_category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:34] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:34] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:36] "GET /project/statuses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:38] "GET /project/status/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:43] "POST /project/status/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:43] "GET /project/statuses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:46] "GET /project/skills HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:47] "GET /project/skill/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:49] "POST /project/skill/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:49] "GET /project/skills HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:51] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:53] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:56] "GET /stakeholder/stakeholders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:30:58] "GET /stakeholder/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:06] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:07] "GET /create_department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:11] "POST /create_department HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:11] "GET /create_department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:15] "POST /create_department HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:15] "GET /create_department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:18] "GET /stakeholder/specialties HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:20] "GET /stakeholder/specialty/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:24] "POST /stakeholder/specialty/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:24] "GET /stakeholder/specialties HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:27] "GET /batches HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:28] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:35] "POST /create_batch HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:35] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:40] "POST /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:44] "POST /create_batch HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:44] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:53] "GET /student/students HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:31:55] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:13] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:18] "GET /student/ranks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:19] "GET /student/rank/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:25] "POST /student/rank/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:25] "GET /student/ranks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:27] "GET /student/students HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:29] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:44] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:48] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:32:48] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:07] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:10] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:10] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:31] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:33] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:33] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:43] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:46] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:46] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:49] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 14:33:51] "GET /project/create HTTP/1.1" 200 -
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:52:33] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:52:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:52:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:52:33] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:52:34] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:52:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:52:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:53:38] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:53:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:53:42] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:53:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\base\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:54:22] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:54:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:54:30] "POST /create_user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\base\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:54:40] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:54:40] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:54:40] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:54:40] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:41] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:42] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:44] "GET /company HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:44] "GET /company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:44] "GET /company?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:44] "GET /company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:45] "GET /company?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:45] "GET /company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:55:45] "GET /company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:56:20] "GET /company HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:56:20] "GET /company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:56:20] "GET /company?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:56:20] "GET /company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:56:21] "GET /company?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:56:21] "GET /company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:56:59] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:03] "GET /company HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:03] "GET /company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:03] "GET /company?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:03] "GET /company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:03] "GET /company?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:04] "GET /company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:11] "GET /company HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:11] "GET /company?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:11] "GET /company?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:11] "GET /company?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:12] "GET /company?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:12] "GET /company?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:15] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:24] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:25] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:26] "GET /company/company HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:34] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:36] "GET /create_department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:44] "GET /company/company HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:45] "GET /company/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:53] "GET /stakeholder/specialties HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:55] "GET /stakeholder/specialty/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:58] "POST /stakeholder/specialty/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:57:58] "GET /stakeholder/specialties HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:00] "GET /stakeholder/stakeholders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:01] "GET /stakeholder/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:09] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:10] "GET /create_department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:13] "POST /create_department HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:13] "GET /create_department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:18] "POST /create_department HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:18] "GET /create_department HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:20] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:23] "GET /batches HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:24] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:29] "POST /create_batch HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:29] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:33] "POST /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:36] "POST /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:40] "POST /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:42] "GET /batches HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:44] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:48] "POST /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:50] "GET /batches HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:58:54] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:59:01] "POST /create_batch HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:59:01] "GET /create_batch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:59:02] "GET /batches HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:59:45] "GET /semesters HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:59:48] "GET /stakeholder/stakeholders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 17:59:50] "GET /stakeholder/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:04] "POST /stakeholder/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:04] "GET /stakeholder/stakeholders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:07] "GET /stakeholder/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:15] "POST /stakeholder/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:15] "GET /stakeholder/stakeholders HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:22] "GET /student/students HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:23] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:38] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:47] "GET /student/ranks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:49] "GET /student/rank/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:58] "POST /student/rank/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:00:58] "GET /student/ranks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:00] "GET /student/students HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:02] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:17] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:20] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:20] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:28] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:31] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:31] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:01:58] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:02:00] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:02:00] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:02:17] "GET /student/get_batch/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:02:19] "POST /student/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:02:19] "GET /student/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:02:37] "GET /student/students HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:03:14] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:03:21] "GET /company/company HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:03:22] "GET /company/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:01] "POST /company/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:01] "GET /company/company HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:44] "GET /company/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:49] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:51] "GET /project/categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:53] "GET /project/category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:55] "POST /project/category/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:55] "GET /project/category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:57] "GET /project/sub_categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:59] "GET /project/sub_category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:59] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:04:59] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:02] "POST /project/sub_category/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:02] "GET /project/sub_category/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:02] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:02] "GET /static/custom.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:11] "GET /project/sub_categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:14] "GET /project/statuses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:15] "GET /project/status/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:18] "POST /project/status/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:18] "GET /project/statuses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:20] "GET /project/skills HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:21] "GET /project/skill/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:28] "POST /project/skill/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:28] "GET /project/skills HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:30] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:32] "GET /project/create HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:32] "GET /project/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:32] "GET /project/create?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:32] "GET /project/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:32] "GET /project/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:32] "GET /project/create?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:05:32] "GET /project/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\project\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:06:45] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:06:45] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:31] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:34] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:56] "POST /project/create HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:56] "GET /project/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:56] "GET /project/create?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:56] "GET /project/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:56] "GET /project/create?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:56] "GET /project/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:07:57] "GET /project/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\01_Dexpertize\\Phase_3\\Kit-Point-System-master\\app\\project\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:36] "POST /project/create HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:36] "GET /project/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:36] "GET /project/create?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:36] "GET /project/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:36] "GET /project/create?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:36] "GET /project/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:51] "GET /project/statuses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:53] "GET /project/status/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:57] "POST /project/status/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:57] "GET /project/statuses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:08:59] "GET /project/status/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:09:02] "POST /project/status/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:09:02] "GET /project/statuses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:09:04] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:09:06] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:09:23] "POST /project/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:09:23] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:09:54] "GET /project/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:05] "POST /project/2 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:05] "GET /project/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:05] "GET /project/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:05] "GET /project/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:05] "GET /project/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:05] "GET /project/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:05] "GET /project/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:14] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:17] "GET /project/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:10:26] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:11:13] "POST /project/create HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 18:11:13] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:32:11] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:32:12] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:32:12] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:32:18] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:32:24] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:34:39] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:34:40] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:36:22] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:36:23] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:36:30] "GET /static/vendors/bootstrap/dist/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:36:30] "GET /static/vendors/parsleyjs/dist/parsley.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:37:13] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:37:14] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:37:22] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:37:23] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:38:30] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:38:31] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:39:09] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:39:10] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:40:26] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:40:28] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:42:45] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:42:47] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:43:25] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:43:26] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:43:52] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:43:53] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:44:47] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:44:48] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:45:31] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:45:32] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:46:54] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:46:55] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:47:32] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:47:33] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:48:19] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:48:20] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:49:03] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:49:04] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:51:37] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:51:39] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:54:20] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:54:21] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:56:28] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 19:56:29] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:01:59] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:02:00] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:07:20] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:07:22] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:17:16] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:17:17] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:17:44] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:17:46] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:17:48] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:17:49] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:18:53] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:38:52] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:38:53] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:40:31] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:40:32] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:41:39] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:41:40] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:41:40] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:41:44] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:41:47] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:46:46] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:46:46] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:46:46] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:46:58] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:47:00] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:48:06] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:48:07] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:48:07] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:48:11] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:48:14] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:49:09] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:49:09] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:49:09] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:49:13] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:49:17] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:50:47] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:50:48] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-002-126
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:51:42] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:51:42] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:51:43] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:51:47] "GET /project/projects HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:51:50] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:55:00] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:55:01] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:56:19] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:56:20] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:56:20] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:56:44] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:56:45] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:57:10] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:57:11] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:57:31] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:57:32] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:58:19] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:58:20] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:58:34] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:58:35] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:58:49] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:58:50] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:59:00] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:59:01] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:59:54] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 20:59:55] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:00:32] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:00:33] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:00:51] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:00:52] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:01:22] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:01:23] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:01:33] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:01:34] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:05:01] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:05:03] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:06:32] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:06:34] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:06:39] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:06:40] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:09:42] "GET /project/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2019 21:09:43] "GET /static/images/favicon.ico HTTP/1.1" 200 -
